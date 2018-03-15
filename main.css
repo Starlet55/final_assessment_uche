@@ -1,0 +1,42 @@
+
+.list-inline{
+    text-align: center;
+}
+
+
+.heading1{
+    text-decoration: underline;
+
+}
+
+#btn{
+    border-radius: 0px;
+}
+
+.container{
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.top
+{
+   margin: 20px;
+   padding: 20px 40px;
+   background-color: aliceblue;
+
+div.text-center{
+    border: 1px solid red;
+    background-color: aliceblue;
+    background-image: url("myphoto.jpg");
+}
+}
+body{
+    background-color: aqua;
+}
+footer{
+    border: 1px solid black;
+    background-color: aliceblue;
+}

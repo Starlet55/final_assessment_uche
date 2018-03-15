@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment</title>
+<link rel="shortcut icon" type="images/png" href="images2/Logo.jpg">
+<link rel="stylesheet" type="text/css" href="myassignment.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="text-center" >
+          <div class ="top">
+          <header><h1 span style="font-family: cursive; color:crimson";><b>Welcome</b></h1></header>
+              <h2 span style="font-family: cursive">Uche is set to test your knowledge on finance.</h2>
+
+        <nav class="container">
+
+
+        </nav>
+          </div>
+    </div>
+
+<div class="jumbotron">
+<h1 span style="text-align: center;" class="heading1"><b>Finance Exam Questions</b></h1><br>
+
+<ul class="list-inline">
+    <li><a href="">HOME</a></li>
+    <li><a href="">Q/A</a></li>
+    <li><a href="">CATEGORIES</a></li>
+    <li><a href="">ABOUT</a></li>
+
+    </ul>
+ </div>
+<div class="container"><br><br>
+        <form>
+    <div><p class="question">1. The study of how money is managed and the actual process of acquiring needed funds is?</p><br>
+        <input class="answer" type="radio" name="q1" value="1" >
+        <label id="correctString1">Finance</label><br><br>
+        <input class="answer" type="radio" name="q1" value="0" >
+        <label>Accounting</label><br><br>
+        <br><br><hr>
+    </div>
+
+    <div> <p class="question">2. The difference between revenue and cost is?</p><br>
+        <input class="answer" type="radio" name="q2" value="1">
+        <label id="correctString2">Profit/Loss</label><br><br>
+        <input class="answer" type="radio" name="q2" value="0">
+        <label>Expenditure</label><br><br>
+       <br><br><hr>
+    </div>
+
+    <div><p class="question">3. Which of these is an example of a financial statement?</p><br>
+        <input class="answer" type="radio" name="q3" value="1">
+        <label id="correctString3">Balance Sheet</label><br><br>
+        <input class="answer" type="radio" name="q3" value="0">
+        <label>Purchases Day Book</label><br><br>
+        <br><br><hr>
+    </div>
+
+    <div><p class="question">4. Is taxation an aspect of accounting?</p><br>
+        <input class="answer"type="radio" name="q4" value="1">
+        <label id="correctString4">Yes</label><br><br>
+        <input class="answer" type="radio" name="q4" value="0">
+        <label>No</label><br><br>
+        <br><br><hr>
+    </div>
+
+    <div><p class="question">5. A business owned and managed by one man is known as?</p><br>
+        <input class="answer" type="radio" name="q5" value="0">
+        <label>Trading</label><br><br>
+        <input class="answer" type="radio" name="q5" value="1">
+        <label id="correctString5">Sole Proprietorship</label><br><br>
+       <br><br><hr>
+    </div>
+
+      <div><p class="question">6. Partnership is a type of business managed and owned by?</p><br>
+        <input class="answer" type="radio" name="q6" value="1">
+          <label id="correctString6">Two or more persons </label><br><br>
+        <input class="answer" type="radio" name="q6" value="0">
+          <label>A church</label><br><br>
+       <br><br><br><hr>
+    </div>
+
+             <div class="submitter">
+			  <input class="btn btn-primary" id="submitButton" onClick="submitQuiz()"
+			  type="submit" value="Submit" />
+		</div>
+
+            <!--show only wrong answers on submit-->
+		<div class="row">
+			<div class="col-md-6">
+				<div class="quizAnswers" id="correctAnswer1"></div>
+				<div class="quizAnswers" id="correctAnswer2"></div>
+				<div class="quizAnswers" id="correctAnswer3"></div>
+				<div class="quizAnswers" id="correctAnswer4"></div>
+				<div class="quizAnswers" id="correctAnswer5"></div>
+				<div class="quizAnswers" id="correctAnswer6"></div>
+			</div>
+			<div class="col-md-6">
+			<!--show score upon submit-->
+
+
+    </form>
+</div><br><br>
+
+
+
+
+
+
+
+
+
+
+<script src="assign.js">
+
+</script>
+<script src="bootstrap/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+    <div class="container-fluid">
+	<footer style="min-height: 50px;" class="bg-secondary">
+		<p style="color: black; padding-top: 20px; font-weight: bolder; font-size: 40px" class="text-center";>Welldone</p>
+	</footer>
+	</div>`
+
+
+</html>

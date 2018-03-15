@@ -1,0 +1,19 @@
+{
+  "name": "final_assessment_uche",
+  "version": "1.0.0",
+  "description": "finance question website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starlet55/final_assessment_uche.git"
+  },
+  "author": "starlet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Starlet55/final_assessment_uche/issues"
+  },
+  "homepage": "https://github.com/Starlet55/final_assessment_uche#readme"
+}
