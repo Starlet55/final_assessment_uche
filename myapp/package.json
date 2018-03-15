@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Starlet",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Starlet55/final_assessment_uche.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Starlet55/final_assessment_uche/issues"
+  },
+  "homepage": "https://github.com/Starlet55/final_assessment_uche#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
