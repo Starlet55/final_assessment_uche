@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Starlet55/final_assessment_uche/issues"
   },
-  "homepage": "https://github.com/Starlet55/final_assessment_uche#readme"
+  "homepage": "https://github.com/Starlet55/final_assessment_uche#readme",
+  "dependencies": {
+    "cool-ascii-faces": "1.3.4"
+  }
 }
