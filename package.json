@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Starlet55/final_assessment_uche#readme",
   "dependencies": {
-    "cool-ascii-faces": "1.3.4"
+    "cool-ascii-faces": "1.3.4",
+    "express": "^4.16.3"
   }
 }
